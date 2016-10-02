@@ -65,7 +65,18 @@ namespace AutoExtension.DateTimeExtensions
         /// <returns>The number of days.</returns>
         public static int NumberOfDaysInThisMonth(this DateTime value)
         {
-           return value.AddMonths(1).AddDays(-1).Day;
+            return new DateTime(value.Year, value.Month + 1, 1).AddDays(-1).Day;
+        }
+
+        /// <summary>
+        /// Determines the numner of days left in the current month.
+        /// </summary>
+        /// <param name="value">The DateTime value.</param>
+        /// <returns>The number of days left.</returns>
+        public static int NumberOfDaysLeftInThisMonth(this DateTime value)
+        {
+            int daysThisMonth = value.NumberOfDaysInThisMonth();
+            return daysThisMonth - value.Day;
         }
     }
 }

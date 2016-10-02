@@ -50,12 +50,6 @@ namespace AutoExtension.Test.DateTimeExtensions
         }
 
         [Test]
-        public void NumberOfDaysCurrentMonthReturnsCorrectNumberOfDays()
-        {
-            Assert.AreEqual(31, new DateTime(2008, 1, 1).NumberOfDaysInThisMonth());
-        }
-
-        [Test]
         public void IsBetweenDateTimeReturnsTrue()
         {
             bool betweenDateAndTime = new DateTime(2010, 1, 1, 11, 0, 0)
@@ -96,6 +90,18 @@ namespace AutoExtension.Test.DateTimeExtensions
                 new DateTime(2011, 1, 1));
 
             Assert.IsFalse(isBetweenDates);
+        }
+
+        [Test]
+        public void NumberOfDaysCurrentMonthReturnsCorrectNumberOfDays()
+        {
+            Assert.AreEqual(31, new DateTime(2008, 1, 1).NumberOfDaysInThisMonth());
+        }
+
+        [Test]
+        public void NumberOfDaysLeftReturnsTheCorrectNumberOfDays()
+        {
+            Assert.AreEqual(1, new DateTime(2016, 1, 30).NumberOfDaysLeftInThisMonth());
         }
     }
 }
