@@ -1,0 +1,9 @@
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\AutoExtension.Test.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\AutoExtension.Test.pdb
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\nunit.framework.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\nunit.framework.xml
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\obj\Debug\AutoExtension.Test.csprojResolveAssemblyReference.cache
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\obj\Debug\AutoExtension.Test.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\obj\Debug\AutoExtension.Test.pdb
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\AutoExtension.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension.Test\bin\Debug\AutoExtension.pdb

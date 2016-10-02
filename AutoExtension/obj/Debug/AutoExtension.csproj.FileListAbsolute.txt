@@ -1,0 +1,5 @@
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension\bin\Debug\AutoExtension.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension\bin\Debug\AutoExtension.pdb
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension\obj\Debug\AutoExtension.csprojResolveAssemblyReference.cache
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension\obj\Debug\AutoExtension.dll
+C:\Users\Niels\Source\Repos\AutoExtensions\AutoExtension\obj\Debug\AutoExtension.pdb
