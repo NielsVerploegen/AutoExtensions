@@ -1,0 +1,5 @@
+/home/niels/Documents/Sources/AutoExtension/AutoExtension/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/niels/Documents/Sources/AutoExtension/AutoExtension/bin/Debug/AutoExtension.dll.mdb
+/home/niels/Documents/Sources/AutoExtension/AutoExtension/bin/Debug/AutoExtension.dll
+/home/niels/Documents/Sources/AutoExtension/AutoExtension/obj/Debug/AutoExtension.dll
+/home/niels/Documents/Sources/AutoExtension/AutoExtension/obj/Debug/AutoExtension.dll.mdb
