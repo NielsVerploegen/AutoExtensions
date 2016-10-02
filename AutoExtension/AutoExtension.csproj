@@ -32,8 +32,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Validators\TimeValidator.cs" />
-    <Compile Include="DateTimeExtensions\DateTimeQuestion.cs" />
-    <Compile Include="DateTimeExtensions\DateTimeTravel.cs" />
+    <Compile Include="DateTimeExtensions\DateTimeClaimExtension.cs" />
+    <Compile Include="DateTimeExtensions\DateTimeTravelExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

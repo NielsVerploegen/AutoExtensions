@@ -5,7 +5,7 @@ using System;
 namespace AutoExtension.Test.DateTimeExtensions
 {
     [TestFixture]
-    public class DateTimeTravelTests
+    public class DateTimeTravelExtensionTests
     {
         [Test]
         public void NextYearReturnsTheCorrectYear()
