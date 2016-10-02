@@ -4,10 +4,10 @@ using AutoExtension.Common.Validators;
 namespace AutoExtension.DateTimeExtensions
 {
     /// <summary>
-    /// DateTimeTravel Extensions for the DateTime class enables to manipulate
+    /// DateTime Manipulation Extensions for the DateTime class enables to manipulate
     /// the date and time.
     /// </summary>
-    public static class DateTimeTravelExtension
+    public static class DateTimeManipulationExtension
     {
         #region public methods
         #region date

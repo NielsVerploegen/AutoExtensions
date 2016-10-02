@@ -3,13 +3,13 @@
 namespace AutoExtension.DateTimeExtensions
 {
     /// <summary>
-    /// DateTimeClaim Extensions for the DateTime class.
+    /// DateTimeCalendar Extensions for the DateTime class.
     /// Makes it possible to make claims on dates. i.e. : 
     /// - Is this a leap year ?
     /// - Is a date inside a range?
     ///  etc.
     /// </summary>
-    public static class DateTimeClaimExtension
+    public static class DateTimeCalendarExtension
     {
         /// <summary>
         /// Determines whether a given date is a Saturday or Sunday.
@@ -30,17 +30,6 @@ namespace AutoExtension.DateTimeExtensions
         public static bool IsWeekDay(this DateTime value)
         {
             return !value.IsWeekend();
-        }
-
-        /// <summary>
-        /// Determines whether a given date is within a leap 
-        /// year.
-        /// </summary>
-        /// <param name="value">The DateTime value.</param>
-        /// <returns>True if it is a leap year.</returns>
-        public static bool IsLeapYear(this DateTime value)
-        {
-            return DateTime.DaysInMonth(value.Year, 2) == 29;
         }
 
         /// <summary>
@@ -67,6 +56,16 @@ namespace AutoExtension.DateTimeExtensions
         public static bool IsBetweenDates(this DateTime value, DateTime startDate, DateTime endDate)
         {
             return value.Date >= startDate.Date && value.Date <= endDate.Date;
+        }
+
+        /// <summary>
+        /// Determines the number of days in the current month.
+        /// </summary>
+        /// <param name="value">The DateTime value.</param>
+        /// <returns>The number of days.</returns>
+        public static int NumberOfDaysInThisMonth(this DateTime value)
+        {
+           return value.AddMonths(1).AddDays(-1).Day;
         }
     }
 }

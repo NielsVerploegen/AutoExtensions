@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace AutoExtension.Test.DateTimeExtensions
 {
     [TestFixture]
-    public class DateTimeClaimExtensionTests
+    public class DateTimeCalendarExtensionTests
     {
         [Test]
         public void IsWeekendReturnsTrueAtSaturday()
@@ -50,19 +50,13 @@ namespace AutoExtension.Test.DateTimeExtensions
         }
 
         [Test]
-        public void IsWeekDayReturnsTrueWhenTheYearIsLeap()
+        public void NumberOfDaysCurrentMonthReturnsCorrectNumberOfDays()
         {
-            Assert.IsTrue(new DateTime(2008, 1, 1).IsLeapYear());
+            Assert.AreEqual(31, new DateTime(2008, 1, 1).NumberOfDaysInThisMonth());
         }
 
         [Test]
-        public void IsWeekDayReturnsFalseWhenTheYearIsNotLeap()
-        {
-            Assert.IsFalse(new DateTime(2009, 1, 1).IsLeapYear());
-        }
-
-        [Test]
-        public void IsBeteenDateTimeReturnsTrue()
+        public void IsBetweenDateTimeReturnsTrue()
         {
             bool betweenDateAndTime = new DateTime(2010, 1, 1, 11, 0, 0)
                 .IsBetweenDateAndTime(new DateTime(2009, 1, 1),
